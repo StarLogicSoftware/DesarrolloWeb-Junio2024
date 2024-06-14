@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 13/06</title>
+  </head>
+  <body>
+
+    <h1>Etiquetas HTML</h1>
+    <!-- Podemos agregar otros elementos HTMl dentro de, por ejemplo
+     un parrafo, aqui colocamos un link "<a>" dentro del contenido del "<p>"-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      voluptate dolorum explicabo dolores quisquam doloribus quae aut assumenda
+      molestias saepe illum rerum, quidem doloremque nobis odio,
+      <a href="">at blanditiis </a> iusto iure. 
+    </p>
+    <!-- y aqui colocamos negrita y un salto de linea tambien dentro de un párrafo-->
+    <p>
+        Dolorem molestiae ab, possimus,
+        quae corporis, qui culpa exercitationem dolorum voluptate sed totam earum
+        assumenda. <b>Corporis, ab dolorem? </b>Delectus beatae quibusdam
+        perferendis <br> natus cumque! Officia incidunt sunt atque perspiciatis
+        recusandae aspernatur hic distinctio,
+        <strong> illum non eum reiciendis</strong> voluptate harum praesentium
+        aperiam possimus quae sit culpa cupiditate! Omnis possimus praesentium
+        harum accusamus id. Ipsam voluptatibus possimus ea soluta dolor
+    </p>
+
+    <!-- Imagenes en HTML 
+     scr = de donde saca la iamgen (url)
+     alt = texto alternativo por si no carga la iamgen y para lectores de no videntes-->
+      <h4>Imagen desde RUL</h4>
+     <img src="https://www.zooplus.es/magazine/wp-content/uploads/2018---/04/fotolia_169457098.jpg" alt="Aca habia una foto de un gatito">
+
+    <!-- Imagen cargada desde un archivo que guardamos en el proyecto
+     ./ -> Accedemos desde el html actual a un archivo o carpeta 
+     ../ para volver una carpeta hacia atras -->
+     <h4>Imagen desde mi servidor</h4>
+     <a href="">
+      <img src="./imagenes/foto-gatito.jpg" alt="Foto de gatito desde el servidor">
+     </a>
+    
+    <ul>
+      <!-- lista desordenada, coloca "o" delante de cada item -->
+      <li>Ingrediente 1</li>
+      <li>Ingrediente 2</li>
+    </ul>
+
+    <ol>
+      <!-- Lista ordenada coloca numeros "1. 2. 3." delante de cada item-->
+      <li>Ingrediente 1</li>
+      <li>Ingrediente 2</li>
+    </ol>
+
+    <!-- ! Elementos en bloque (ocupan todo el espacio horizontal)-->
+     <!-- Ademas de los de aqui abajo, estan las imagenes y videos-->
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p>
+    <blockquote> Una cita de un texto </blockquote>
+
+    <!-- ! elementos en linea (solo ocupan horizontalmente el tamaño del contenido)-->
+    <u> Subrayar un texto</u>
+    <b> Poner texto en negrita </b>
+    <s> Tachar el texto </s>
+    <!--Coloca lo que hay dentro en negrita-->
+    <strong>Marcar en negrita y como importante</strong>
+    <!--Igual a <b> pero con significado de importante-->
+    <em> Poner texto en cursiva</em><!--Cursiva-->
+    
+    <br> <!-- Salto de linea (break)-->
+    <hr> <!-- Salto de linea + dibujar esa linea (horizontal row)-->
+
+    <!-- Link a otro sitio / pagina
+     href= direccion web al ir cuando se hace click
+     target="_blank" el sitio se abrirá en una nueva pestaña-->
+    <a href="https://www.google.com" target="_blank"> Ir a google </a>
+
+  </body>
+</html>
