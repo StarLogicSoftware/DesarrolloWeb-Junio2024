@@ -1,0 +1,61 @@
+/* ? Propiedades vistas en clase */
+
+p {  /* Listado de propiedades */
+  color: red; /* color nombrado*/
+  color: rgb(221, 12, 12); /* color en rgb*/
+  color: #ff0000; /* color en hexagesimal*/
+  background-color: gray; /* color de fondo */
+  opacity: 0.5; /* opacidad (transparencia, entre 1 color solido y 0 transparente) */
+  font-family: Arial, Helvetica, sans-serif; /* fuente (tipo de letra) (principal, alternativa1, alternativa2, ....)*/
+  font-size: 90px; /* tamaño de la fuente */
+  font-style: oblique; /* Estilo (oblicio, normal) */
+  font-weight: normal; /* grosor de la fuente */
+
+  text-transform: uppercase; /* Transformar a mayuscula, minuscila, capitalizado*/
+  text-align: center; /* alineacion del texto dentro de su caja*/
+  letter-spacing: 0px; /* separacion de las letras */
+  word-spacing: 60px; /* separacion de las palabras */
+  line-height: 40px; /* separacion entre renglones de un texto */
+  text-shadow: 15px 25px 15px green; /* sobras del texto (desplazamiento-x desplazamiento-y difuminado color) */
+
+  /* Margen (separacion entre el elemento y las demas etiquetas)*/
+  margin: 1px 2px 3px 4px; /* shorthand (atajo) -> 1px arriba 2px derecha 3px abajo 4px izquierda */
+  margin: 1px 2px ; /* shorthand (atajo) -> 1px arriba-abajo 2px derecha-izquierda */
+  margin: 1px; /* shorthand (atajo) -> 1px de margen en los 4 lados */
+  /* Propiedades individuales*/
+  margin-top: 1px; /* arriba */
+  margin-right: 2px; /* derecha */
+  margin-bottom: 3px; /* abajo */
+  margin-left: 4px; /* izquierda */
+
+  /* Padding (separacion entre el contenido del elemento y la caja (borde) que lo contiene */
+  padding: 1px 2px 3px 4px; /* shorthand (atajo) -> 1px arriba 2px derecha 3px abajo 4px izquierda */
+  padding: 1px 2px ; /* shorthand (atajo) -> 1px arriba-abajo 2px derecha-izquierda */
+  padding: 1px; /* shorthand (atajo) -> 1px de padding en los 4 lados */
+  /* Propiedades individuales*/
+  padding-top: 1px; /* arriba */
+  padding-right: 2px; /* derecha */
+  padding-bottom: 3px; /* abajo */
+  padding-left: 4px; /* izquierda */
+}
+
+/* ? Selectores */
+p {  /* Selector de tipo ( o de etiqueta)*/
+  /* codigo CSS */
+}
+
+.mi-clase {  /* Selector de clase*/
+  /* codigo CSS */
+}
+
+#identificador {  /* Selector de id */
+  /* codigo CSS */
+}
+
+header p{  /* Selector combinado (parrafos dentro de un header)*/
+    /* codigo CSS */
+}
+
+header > p{  /* Selector de hijos directos (parrafos directamente dentro de un header) */
+    /* codigo CSS */
+}
