@@ -1,0 +1,65 @@
+
+article{
+    border: 2px solid black;
+}
+
+.titulo h3{
+    background-color: gray;
+}
+
+.cuerpo{
+    background-color: tomato;
+}
+
+.texto-importante{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+html{
+    font-size: 40px;
+}
+
+.p-em{
+    background-color: rgba(255, 0, 0, 0.654);
+    width: 50vw;
+    height: 100vh;
+}
+
+.p-rem{
+    background-color: rgba(21, 0, 255, 0.654);
+    height: 3rem;
+}*/
+
+/* Unidades de medida
+-- valor absoluto
+px -> pixeles 
+-- valores relativos
+% -> porcentaje del tamaño del elemento padre
+em -> relativo al tamaño de la fuente del elemento
+rem -> relativo al tamaño de la fuente del elemento raiz
+vh -> viewport height
+wh -> viewport width
+*/
