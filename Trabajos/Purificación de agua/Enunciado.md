@@ -4,6 +4,9 @@
 Usando el archivo ```estilos.css``` del proyecto, dar estilos a las 4 paginas que contienen un metodo de purificacion de agua distinto y al ```index.html``` que tiene un enlace a cada pagina.
 El sitio ya tiene una estuctura semantica (header, main, sections, etc) por si deseas usarla para estilar también.
 
+## Archivos
+Desde **[este enlace](https://github.com/StarLogicSoftware/DesarrolloWeb-Junio2024/raw/main/Trabajos/Purificaci%C3%B3n%20de%20agua/Descargable%20-%20Purificaci%C3%B3n%20de%20agua.rar)** podes descargar el archivo comprimido que tiene todas las paginas e imagenes para empezar a trabajar.
+
 ## Tareas
 - Estilar los textos, dando tamaño de letra, fuente, colores, sombras, etc, tenés el resumen de las diferentes propiedades [aqui](https://github.com/StarLogicSoftware/DesarrolloWeb-Junio2024/blob/main/CSS/Clase%2025-06/estilos.css)
 - Dar tamaño, margen, padding, color, borde y sombras a los elementos que creas necesarios
