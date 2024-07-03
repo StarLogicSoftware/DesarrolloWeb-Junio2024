@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0 15px 0 15px;
+  /*background-image: url("./imagenes/destilacion.jpg");*/
+}
+
+h1,h2,h3,h4 {
+  margin: 5px 0 15px 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: aqua;
+}
+
+h3,h4 {
+  text-align: left;
+}
+
+a{
+    background-color: #13678A;
+    color: #DAFDBA;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 10px 0 35px 0;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: #9AEBA3;
+    color: #13678A;
+    padding: 10px 20px;
+    margin: 10px 0 25px 0;
+    box-shadow: 0 0 25px 5px #9AEBA3;
+}
+
+section{
+    margin: 40px 0;
+    border-top: 3px solid whitesmoke;
+}
+
+article{
+    background-color: rgb(66, 66, 66);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
+}
+
+.menu-superior{
+    position: sticky;
+    top: 0;
+    background-color: #13678A;
+    margin: 0 -15px 0 -15px;
+}
+
+.menu-superior h1{
+    margin-top: 0;
+    padding: 20px 0;
+}

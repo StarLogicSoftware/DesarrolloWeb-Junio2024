@@ -1,0 +1,73 @@
+body {
+  background-color: gray;
+  color: white;
+}
+
+h3{
+    position: sticky;
+    top: 35px;
+    color: aqua;
+}
+
+h2 {
+    color: red;
+    position: sticky;
+    top: 10px;
+    /* Position: como se posiciona en el html segun el flujo del documento
+    - static -> por defecto
+    - relative
+    - absolute
+    - fixed
+    - sticky*/
+   
+    /* Se "pega" a la parte superior o inferior de la ventana al alcanzar el umbral marcado con top o bottom 
+    - Mantiene el flujo original (ocupa lugar en el html)
+    - cepta propiedades de top, bottom, left y right*/
+
+    /*
+    margin: 0;
+    position: fixed;
+    top: 0
+     Se posiciona en relacion a la ventana del navegador
+    - Se retira del flujo del documento
+    - Queda fijo en la ventana (incluso al scrollear)
+    - Acepta propiedades de top, bottom, left y right*/
+    /* 
+    position: absolute;
+  top: 30px;
+  left: 30px;
+  /* Es absoluto relativo al elemento raiz (<html>
+    - No ocupa lugar en el documento
+    - Acepta propiedades de top, bottom, left y right*/
+
+  /* 
+    position: relative; Igual a estatico pero peudo moverlo de su posicion actual
+    - Respeta el flujo original del documento
+    - Acepta propiedades de top, bottom, left y right
+    top: 105px;
+    left: 25px;
+   
+    /* position: static;  Posicion por defecto. Toma el flujo normal del HTML*/
+}
+
+/* ? Estilizado "avanzado" de un link
+a{
+    text-decoration: none;
+}
+
+a:hover{ /* Es cuando tenemos el mouse arriba
+    color: black;
+}
+
+a:visited{ /* cuando ya fui a ese sitio
+    color: red;
+}
+
+a:link{ /* cuando aun no fui a ese sitio
+    color: tomato;
+}
+
+a:active{ /* mientras tengo el click presionado sobre el link
+    background-color: aquamarine;
+}
+*/
