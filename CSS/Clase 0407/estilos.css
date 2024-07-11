@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(blue, green);
+    /*
+  
+    background-color: gray;
+    background-image: url("./imagenes/montaña.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+
+    /* shorthand -> color iamgen repeat position
+  background: gray url("./imagenes/montaña.jpg");
+  background-size: cover;
+  */
+}
+
+p {
+  color: gray;
+}

@@ -1,0 +1,16 @@
+.item{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+.contenedor{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
