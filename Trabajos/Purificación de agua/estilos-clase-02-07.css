@@ -59,7 +59,7 @@ article{
 }
 
 main{
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -85,6 +85,8 @@ main{
 table{
   border-collapse: collapse;
   caption-side: bottom;
+  width: 700px;
+  margin: 0 auto;
 }
 
 td, tr, th{
@@ -119,4 +121,20 @@ tr:first-child{
 td:hover{
   background-color: rgb(250, 57, 23);
   cursor: pointer;
+}
+
+.contenedor-tabla{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.texto-rojo{
+  color: red;
+}
+
+.texto-negrita{
+  font-weight: bold;
 }
