@@ -15,10 +15,10 @@ Las imagenes (por ejemplo las de perfil) pueden usar las suyas o descargar las q
 
 ### Estructura
 En clase ya definimos una estructura básica de como va a ser el sitio
-![modelo a seguir](/imagenes/consigna/estructura.png)
+![modelo a seguir](imagenes/consigna/estructura.png)
 
 Para verla a tamaño completo puedes
-**[verla desde aqui](/imagenes/consigna/estructura.png)**
+**[verla desde aqui](imagenes/consigna/estructura.png)**
 
 ## Tareas
 Dejo aqui el listado de trabajos que tenemos que ir desarrollando sobre el proyecto
