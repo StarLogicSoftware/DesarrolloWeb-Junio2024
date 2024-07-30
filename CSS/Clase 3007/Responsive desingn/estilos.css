@@ -1,0 +1,111 @@
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 100px) 400px 100px;
+    grid-template-areas:
+    "header"
+    "aside"
+    "main"
+    "footer";
+}
+
+header{
+    background-color: green;
+    grid-area: header;
+}
+
+main{
+    background-color: gray;
+    grid-area: main;
+}
+
+aside{
+    background-color: tomato;
+    grid-area: aside;
+}
+
+footer{
+    background-color: pink;
+    grid-area: footer;
+}
+
+@media (min-width:780px){
+    body{
+        grid-template-columns: 1fr 200px;
+        grid-template-rows: 100px 400px 100px;
+        grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+    background-color: gray;
+    color: deeppink;
+    font-size: 30px;
+}
+
+p{
+    padding: 30px;
+    margin: 10px;
+}
+
+/*  para imprimir (en desuso) 
+@media print {
+    body{
+        background-color: gold;
+    }
+}
+*/
+
+/* Celulares
+@media (min-width:481px) and (max-width:768px){
+    body{
+        font-size: 20px;
+
+    }
+    img{
+        width: 100%;
+    }
+}
+
+/* pcs pequeñas 
+@media ((min-width:769px) and (max-width:1279px)){
+    body{
+        background-color: green;
+    }
+}
+
+@media (min-width:1280px){
+    body{
+        background-color: tomato;
+    }
+}
+/*
+min-width -> tiene que tener COMO MINIMO XXX pixeles (si/no)
+max-width -> tiene que tener COMO MAXIMO XXX pixeles
+
+and -> "y"
+or -> "o"
+*/

@@ -1,0 +1,31 @@
+
+#parrafito{
+    color: yellowgreen;
+}
+
+.parrafo{
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+/* Especificidad de selectores
+1->selector de tipo (o de etiqueta)
+10-> selector de clase (.parrafo)
+100-> selector de id (#id)
+mayor prioridad -> estilos en linea
+!improtant -> ignora la especificidad
+*/
+
+/*
+propeidades que NO se heredan
+-> tamaños (width y height)
+-> margenes y padding
+-> bordes
+-> display
+-> overflow
+-> fondos
+-> flex y grid
+*/
