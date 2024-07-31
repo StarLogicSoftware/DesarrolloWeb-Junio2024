@@ -40,6 +40,15 @@ Personalmente recomiendo estos videos para repasar lo que vimos sobre flex o gri
 
 [Grids por área](https://youtu.be/OQtAyXHeKnc?si=E8tQyWqcBAxjBAEE)
 
+## Cascada, herencia y especificidad (Video de AlexCD Design)
+[Todo sobre cascada, herencia y especificidad](https://youtu.be/tfeC1VQxNmU?si=z7JEAM3bN8p8v_9b)
+
+## Diseño responsive (videos de Eduardo Fierro)
+[1- Puntos de quiebre (breakpoints)](https://youtu.be/_ESkNVyXjdY?si=EVdvQhmL-bkkiVKA)
+
+[2- Media queries](https://youtu.be/LPPXvRImbZE?si=yjbJsuM1CkZifLbv)
+
+
 ## Contenido y herramientas 💻
 
 ### Editor
