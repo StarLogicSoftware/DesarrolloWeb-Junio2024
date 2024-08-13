@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formularios HTML</h1>
+    <!-- method por defecto -> get  -->
+    <form method="get" action="./servidor.php">
+      <label for="nombre">Nombre:</label>
+      <input
+        required
+        placeholder="Pone tu nombre aca"
+        id="nombre"
+        type="text"
+        name="nombre"
+      />
+      <br />
+      <label for="contraseña">Contraseña</label>
+      <input id="contraseña" type="password" name="contraseña" />
+      <br />
+      <label for="email">E-mail:</label>
+      <input readonly value="Algo" id="email" type="email" name="email" />
+      <br />
+      <input
+        id="programar"
+        value="sabe programar"
+        type="checkbox"
+        name="programar"
+      />
+      <label for="programar">Se programar</label>
+
+      <input id="manejovscode" type="checkbox" />
+      <label for="manejovscode">Manejo VS Code</label>
+
+      <input id="publicarsitio" type="checkbox" />
+      <label for="publicarsitio">Se netlify</label>
+
+      <br />
+      <input id="hombre" name="sexo" type="radio" />
+      <label for="hombre">hombre</label>
+      <input id="mujer" name="sexo" type="radio" />
+      <label for="mujer">mujer</label>
+      <br />
+      <input id="tarjeta" name="formapago" type="radio" />
+      <label for="tarjeta">Efectivo</label>
+      <input id="tarjeta" name="formapago" type="radio" />
+      <label for="tarjeta">Tarjeta</label>
+      <br />
+
+      <label for="tecnologia">Tecnologia: </label>
+      <select name="" id="tecnologia">
+        <optgroup label="Frontend">
+          <option value="sabe HTML">HTML</option>
+          <option value="sabe CSS">CSS</option>
+          <option selected value="sabe Javascript">JS</option>
+        </optgroup>
+        <optgroup label="Backend">
+          <option value="sabe HTML">Node js</option>
+          <option value="sabe CSS">C#</option>
+          <option value="sabe Javascript">Python</option>
+        </optgroup>
+      </select>
+      <br />
+      <label for="comentario">Dejas un comentario del curso</label>
+      <textarea name="comentario" id="comentario"> </textarea>
+      <br />
+      <button type="button">Soy un boton!</button>
+      <br />
+      <input type="submit" value="Contactame!" />
+      <input type="reset" value="Resetear formulario" />
+    </form>
+  </body>
+</html>
