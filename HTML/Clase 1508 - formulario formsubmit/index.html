@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formsubmit</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/starlogicsoftware@gmail.com" method="POST">
+        <label for="nombre">Nombre</label>
+        <input required id="nombre" name="nombre" type="text">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario"></textarea>
+        <br>
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="message" placeholder="Details of your problem"></textarea>
+        <input type="file" name="attachment" accept="image/png, image/jpeg">
+        <input type="hidden" name="_next" value="https://mipagina.com.ar/graciascontacto">
+        <input type="hidden" name="_subject" value="Mensaje desde formsubmit">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="submit" value="enviar comentario">
+    </form>
+</body>
+</html>

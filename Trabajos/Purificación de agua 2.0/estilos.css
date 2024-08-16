@@ -142,3 +142,11 @@ section{
 .encuesta .comentario textarea{
     width: 400px;
 }
+
+.desplegable::before{
+    content: url(./imagenes/svg/flecha-abajo.svg);
+}
+
+.desplegable:hover::before{
+    content: url(./imagenes/svg/flecha-derecha.svg);
+}

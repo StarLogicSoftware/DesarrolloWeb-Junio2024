@@ -1,0 +1,19 @@
+p{
+    color: navy;
+    font-weight: bold;
+    
+}
+
+p::before{
+    content: "texto";
+    margin-right: 5px;
+}
+
+p:hover::before{
+    content: url(./flecha-derecha.svg);
+    margin-right: 5px;
+}
+
+p::after{
+    content: "X";
+}
