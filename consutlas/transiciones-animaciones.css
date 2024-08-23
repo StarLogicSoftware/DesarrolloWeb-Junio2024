@@ -1,0 +1,45 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: navy;
+  border: 10px solid gray;
+  /*
+    animation-name: cubito;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+*/
+  animation: cubito 3s ease infinite;
+}
+
+div:hover{
+    animation-play-state: paused;
+}
+
+@keyframes cubito {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: aqua;
+    width: 400px;
+  }
+  50% {
+    background-color: tomato;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+/*
+   @keyframes cubito {
+      from{
+          background-color: red;
+      }
+      to{
+          background-color: green;
+      }
+  }
+      */

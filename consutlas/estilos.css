@@ -1,0 +1,19 @@
+:root{
+    --ancho-cuadradito: 500px; /* declarar variable*/
+    --color-principal: red;
+}
+
+div {
+  width: var(--ancho-cuadradito);
+  height: var(--ancho-cuadradito);
+  background-color: var(--color-principal);
+  border: 10px solid gray;
+}
+
+p {
+  color: var(--color-principal);
+}
+
+h1 {
+  color: var(--color-principal);
+}
