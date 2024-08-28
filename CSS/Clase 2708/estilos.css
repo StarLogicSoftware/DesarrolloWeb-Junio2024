@@ -1,0 +1,10 @@
+[popover]{
+    background-color: gray;
+    padding: 20px;
+    border-color: red;
+}
+
+[popover]::backdrop{
+    background: rgba(131, 131, 131, 0.164);
+    backdrop-filter: blur(2px);
+}
